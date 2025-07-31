@@ -1,0 +1,17 @@
+{
+	"permissions": {
+		"allow": [
+			"Bash(npm run check:*)",
+			"Bash(npm run fix:*)",
+			"Bash(npm run build:*)",
+			"Bash(touch:*)",
+			"Bash(mkdir:*)",
+			"Bash(find:*)",
+			"Bash(grep:*)",
+			"Bash(rm TMP_:*)",
+			"Bash(npx tsc:*)",
+			"Bash(git diff:*)"
+		],
+		"deny": ["Bash(pnpm run:*)"]
+	}
+}
